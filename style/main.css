@@ -1,0 +1,148 @@
+:root {
+    --red: #E50914;
+    --black: #000;
+}
+
+body {
+    background: var(--black);
+    font-family: 'Spline Sans', sans-serif;
+    /*Fonte filme principal */
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 70px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+
+}
+
+/*Menu Netflix */
+header .logo {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #A52A2A;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Mudar fonte para arial black */
+    font-size: 45px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: gray;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: url(/img/thewitcher.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .title {
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--black);
+
+}
+
+.botao i {
+    margin-right: 8px;
+
+}
+
+.container {
+    margin-left: 20px;
+
+
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    padding-top: 10px;
+    margin-top: 5px;
+
+}
+
+.carrosel-padding {
+    padding-top: 20px;
+}
+
+.comment {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.comment:hover {
+    color: #A9A9A9;
+    transition: .5s;
+}
+
+.alta {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.alta:hover {
+    color: #A9A9A9;
+    transition: .5s;
+}
