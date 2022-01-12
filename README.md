@@ -1,2 +1,2 @@
-# netflixInterface
+# NetflixInterface
  recreating the netflix interface
